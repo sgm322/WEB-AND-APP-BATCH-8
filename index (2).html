@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="event.preventDefault()" action="" method="post">
+    <label for="Name">Name</label>
+    <input type="text" placeholder="Enter Your Name" />
+    <br>
+    <label for="Email">Email</label>
+    <input type="email" placeholder="Enter Your Email" required="" />
+    <br>
+    <label for="Password">Password</label>
+    <input
+      type="Password"
+      placeholder="Enter Your Password"
+      maxlength="12"
+      min="8"
+      required=""
+    />
+    <br>
+    <label for="Birthdate">Birthdate</label>
+    <input type="date" placeholder="Enter Your Birthdate" />
+    <br>
+    <label for="CNIC">CNIC</label>
+    <input type="text" placeholder="Enter Your CNIC" />
+    <br>
+    <label for="Phone">Phone</label>
+    <input type="tel" placeholder="Enter Your Phone Number" />
+    <br>
+    <label for="Address">Address</label>
+    <input type="text" placeholder="Enter Your Address" />
+    <br>
+    <select name="city">
+      <option value="city">Select City</option>
+      <option value="Hyderabad">Hyderabad</option>
+      <option value="Karachi">Karachi</option>
+      <option value="Islamabad">Islamabad</option>
+      <option value="Lahore">Lahore</option>
+      <option value="Multan">Multan</option>
+      <option value="Peshawar">Peshawar</option>
+    </select>
+    <br>
+    <label for="Gender">Gender</label>
+    <input type="radio" name="Gender" value="Male">
+    <label for="Male">Male</label>
+    <input type="radio" name="Gender" value="Female">
+    <label for="Female">Female</label>
+    <input type="radio" name="Gender" value="Other">
+    <label for="Other">Other</label>
+    <br>
+    <select name="subject">
+      <option value="Pre Engerring">Pre Engerring</option>
+      <option value="Pre Medical">Pre Medical</option>
+      <option value="Computer Science">Computer Science</option>
+    </select>
+    <br>
+    <label for ="GPA">GPA</label>
+    <input type="text" placeholder="GPA" />
+    <br>
+    <label for="file">Upload File</label>
+    <input type="file" accept=".pdf, .docx, .txt" />
+    <br>
+    <button type="login">Login</button>
+  </body>
+</html>
